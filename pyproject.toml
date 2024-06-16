@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "quizgame"
+version = "0.1.0"
+description = "An interactive quiz game to help you study"
+authors = ["DJ Stomp"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+prompt-toolkit = { git = "https://github.com/djstompzone/python-prompt-toolkit.git", branch = "select-menu-stable" }
+six = "^1.16.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

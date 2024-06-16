@@ -1,0 +1,3 @@
+[submodule "SelectMenu"]
+	path = SelectMenu
+	url = https://github.com/djstompzone/SelectMenu.git
